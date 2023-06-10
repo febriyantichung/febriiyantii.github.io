@@ -3,4 +3,118 @@
 body {
     background-color: #09431D;
     color: white;
+    font-family: kanit;
+}
+
+.portofolio {
+    color: #FCABC8;
+    display: flex;
+    justify-content: end;
+    column-gap: 24px;
+}
+
+.portofolio a {
+    text-decoration: none;
+    color: #FCABC8;
+}
+
+#home h4 {
+    color: #FCABC8;
+}
+
+#home a {
+    background-color: #FCABC8;
+    font-family: inter;
+    border: 0;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 120px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#home {
+    display: flex;    
+}
+
+#home img {
+    margin-top: 140px;
+}
+
+#about-me h2 {
+    color: #FCABC8;
+}
+
+#about-me h6 {
+    font-family: inter;
+    font-weight: lighter;
+}
+
+.personal-skills {
+    margin-left: 12px;
+}
+
+#about-me {
+    display: flex;
+}
+
+#about-me img {
+    object-fit: contain;
+}
+
+.services-list {
+    display: flex;
+    column-gap: 14px;
+    text-align: center;
+    
+}
+
+#services h6 {
+    font-family: inter;
+    font-weight: lighter;
+}
+
+#services h2 {
+    color: #FCABC8;
+}
+
+.apps {
+    display: flex;
+}
+
+.apps img {
+    width: 200px;
+    object-fit: contain;
+    object-position: top;
+}
+
+#contact a {
+    background-color: #FCABC8;
+    font-family: inter;
+    border: 0;
+    border-radius: 4px;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+    font-family: kanit;
+    font-size: 14px;
+    text-align: center;
+}
+
+.contact-list {
+    display: flex;
+    column-gap: 64px;
+
+}
+
+#contact h2 {
+    color: #FCABC8;
+}
+
+.all {
+    margin: auto;
+    max-width: 1000px;
 }
